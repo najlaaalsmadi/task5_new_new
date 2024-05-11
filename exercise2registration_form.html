@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+     fieldset {
+    margin: 10;
+    width: 500px;
+    
+  }
+  </style>
+ 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise #2-Registration form</title>
+</head>
+<body>
+  <h1>Registration Form!</h1>  
+  <form action="#">
+    <fieldset>
+        <h2>Personal details</h2>
+        <hr>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname">
+        <br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="Gender">Gender:</label>
+        <input type="radio" id="Male" name="Male" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" id="Female" name="Female" value="Female">
+        <label for="Female">Female</label>
+
+        <br>
+        <br>
+        <label for="city">City:</label>
+        <select>
+
+            <option>Amman</option>
+            <option>Ajloun</option>
+            <option>Ramtha</option>
+            <option>Irbid</option>
+            <option>Mafraq</option>
+            <option>Zarqa</option>
+        </select>
+        <br><br>
+        <input type="submit" value="sign up">
+    </fieldset>
+  </form>
+</body>
+</html>
